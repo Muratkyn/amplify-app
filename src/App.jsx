@@ -101,7 +101,7 @@ function App({ signOut, user }) {
   return (
     <div className="app">
       <div className="app-header">
-        <h1>TODO APP with Amplify + GraphQL</h1>
+        <h1>TODO APP, with Amplify GraphQL.</h1>
         <p>
           Welcome, <strong>{user.attributes?.email || "User"}</strong>!
         </p>
